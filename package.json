@@ -1,0 +1,11 @@
+{
+  "name": "dendro-bootstrap",
+  "version": "0.0.1",
+  "description": "Project Dendro custom Bootstrap variables.",
+  "license": "BSD-2-Clause-FreeBSD",
+  "author": "J. Scott Smith <scott@newleafsolutionsinc.com>",
+  "scripts": {
+    "build": "test \"$BOOTSTRAP\" && cwd=$(pwd) && cp -f ./scss/_custom.scss \"$BOOTSTRAP/scss\" && ( cd \"$BOOTSTRAP\"; grunt; cp -R ./dist \"$cwd\"; exit 0; ) && cd \"$cwd\"",
+    "clean": "rm -r dist/*"
+  }
+}
