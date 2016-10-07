@@ -4,8 +4,34 @@
 // without modifying source files.
 
 
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+// $gray-dark:                 #373a3c !default;
+// $gray:                      #55595c !default;
+// $gray-light:                #818a91 !default;
+// $gray-lighter:              #eceeef !default;
+// $gray-lightest:             #f7f7f9 !default;
+
+$brand-primary:             #5ca1dc !default;
+$brand-success:             #aedc5c !default;
+$brand-info:                #5cdcbf !default;
+$brand-warning:             #dcac5c !default;
+$brand-danger:              #dc635c !default;
+// $brand-inverse:             $gray-dark !default;
+
+
 // Options
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
 $enable-flex:               true !default;
+// $enable-rounded:            true !default;
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$headings-font-weight:   300 !default;
